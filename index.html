@@ -201,6 +201,47 @@
       </div>
     </div>
   </section>
+  <!-- MEET THE CREATOR -->
+  <section id="creator" class="py-16 border-t border-white/10">
+    <div class="mx-auto max-w-5xl px-6 text-center">
+      <h2 class="text-3xl md:text-4xl font-bold mb-8" data-i18n="creator.title">Meet the Creator</h2>
+      <div class="glass rounded-3xl p-8 md:p-12 flex flex-col md:flex-row items-center gap-8">
+        <!-- Profile image -->
+        <img src="creator.jpg" alt="Creator" class="w-32 h-32 md:w-40 md:h-40 rounded-full object-cover border-4 border-cyan-400/30 shadow-lg" />
+        <div class="text-left">
+          <h3 class="text-2xl font-semibold" data-i18n="creator.name">Oluwasola Frédéric Idowu</h3>
+          <p class="text-slate-300/90 mt-2 text-sm md:text-base max-w-xl" data-i18n="creator.bio">
+            Strategic Visibility Architect, Francophone Bridge, and Communication Specialist.
+            Frederic is the mind behind <span class="font-semibold">IBridge Global — Brutal HR Review</span>,
+            blending real HR scrutiny with clear, actionable insights for creatives and professionals.
+          </p>
+          <div class="mt-4 flex flex-wrap gap-3">
+            <a href="mailto:fredericidowu@gmail.com" class="px-4 py-2 rounded-xl bg-cyan-500/20 border border-cyan-400/40 hover:bg-cyan-500/30 text-sm" data-i18n="creator.email">Email</a>
+            <a href="https://www.linkedin.com/in/fredericidowu" target="_blank" class="px-4 py-2 rounded-xl bg-indigo-500/20 border border-indigo-400/40 hover:bg-indigo-500/30 text-sm" data-i18n="creator.linkedin">LinkedIn</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    // Extend existing i18n object if present
+    if (typeof i18n !== 'undefined') {
+      i18n.en['creator.title'] = 'Meet the Creator';
+      i18n.en['creator.name'] = 'Oluwasola Frédéric Idowu';
+      i18n.en['creator.bio'] = 'Strategic Visibility Architect, Francophone Bridge, and Communication Specialist. Frederic is the mind behind IBridge Global — Brutal HR Review, blending real HR scrutiny with clear, actionable insights for creatives and professionals.';
+      i18n.en['creator.email'] = 'Email';
+      i18n.en['creator.linkedin'] = 'LinkedIn';
+      i18n.en['creator.portfolio'] = 'Portfolio';
+
+      i18n.fr['creator.title'] = 'Rencontrez le créateur';
+      i18n.fr['creator.name'] = 'Oluwasola Frédéric Idowu';
+      i18n.fr['creator.bio'] = 'Architecte de visibilité stratégique, pont francophone et spécialiste de la communication. Frédéric est l’esprit derrière IBridge Global — Brutal HR Review, alliant examen RH réaliste et recommandations concrètes pour les créatifs et les professionnels.';
+      i18n.fr['creator.email'] = 'Email';
+      i18n.fr['creator.linkedin'] = 'LinkedIn';
+      i18n.fr['creator.portfolio'] = 'Portfolio';
+    }
+  </script>
 
   <!-- FOOTER -->
   <footer class="py-10 border-t border-white/10">
